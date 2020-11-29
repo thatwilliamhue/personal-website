@@ -1,0 +1,195 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size:18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 20%;
+  padding-left: 32px;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+/* Style the tabcontent */
+.right {
+  display: none;
+  padding: 0px 120px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  flex: 80%;
+}
+
+.right h2 {
+ font-size: 32px; 
+ margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+}
+
+sup {
+    vertical-align: 25px;
+    font-size: 14px;
+}
+
+.right h3 {
+ font-size: 18px; 
+  margin-block-start: 40px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.right h4 {
+ font-size: 18px; 
+  margin-block-start: 18px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  color: #0e7572;
+
+}
+
+
+#about-me {
+	display:block;
+}
+
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 16px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+#myMenu li a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+
+.personal-info {
+  padding-top: 36px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.personal-info h1 {
+  font-size: 64px;
+  font-family: "Times New Roman", Times, serif;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.personal-info h2 {
+  font-size: 64px;
+  font-style: italic;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.social-media {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.social-media-icon {
+	display: inline-block;
+}
+
+.contact-info {
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.contact-info p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact-info a:link {
+  color: black;
+  background-color: transparent;
+}
+
+.intro{
+	padding-top: 48px;
+	color:#0e7572;
+}
+
+.intro p{
+		 margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+.header {
+	border-bottom: 1px solid #969696;
+}
+
+.footer {
+	  text-align: center;
+	  padding: 20px;
+	  border-top: 1px solid #969696;
+}
+
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
